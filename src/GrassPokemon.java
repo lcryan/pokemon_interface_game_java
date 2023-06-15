@@ -1,6 +1,5 @@
-public class GrassPokemon {
-    public GrassPokemon() {
-        // TODO: super in here - all extra variables above
-
+public class GrassPokemon extends Pokemon {
+    public GrassPokemon(String name, int level, int hp, String food, String sound) {
+        super(name, level, hp, food, sound);
     }
 }

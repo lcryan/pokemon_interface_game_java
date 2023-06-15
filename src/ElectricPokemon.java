@@ -1,7 +1,6 @@
-public class ElectricPokemon {
+public class ElectricPokemon extends Pokemon {
 
-    public ElectricPokemon() {
-        // TODO: super in here - all extra variables above
-
+    public ElectricPokemon(String name, int level, int hp, String food, String sound) {
+        super(name, level, hp, food, sound);
     }
 }
