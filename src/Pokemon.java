@@ -12,6 +12,7 @@ public abstract class Pokemon {
         this.food = food;
         this.sound = sound;
     }
+
     public String getName() {
         return name;
     }
