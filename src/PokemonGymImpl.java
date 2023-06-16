@@ -1,5 +1,6 @@
 import java.util.*;
 
+//TODO getters still have to be implemented in either the Trainer or GymOwner class //
 public class PokemonGymImpl implements PokemonGym {
     List<Pokemon> pokemons;
 
