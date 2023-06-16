@@ -1,12 +1,15 @@
+import java.util.Arrays;
+import java.util.List;
+
 public class FirePokemon extends Pokemon {
 
-    // TODO : need 2 private final vars here
-    // TODO : implement vars in constructor
-    // TODO : need 1 getter in each subclass -
+    private static final String type = "fire";
+    private static final List<String> attacks = Arrays.asList("Inferno", "Pyroball", "Firelash", "Flamethrower");
+
+    // TODO : need 1 getter in each subclass - is already implemented in Pokemon ??!! //
 
     public FirePokemon(String name, int level, int hp, String food, String sound) {
-        super(name, level, hp, food, sound);
-        //TODO : this has to be solved !
+        super(name, level, hp, food, sound, type);
     }
 
     public void inferno(Pokemon pokemon, Pokemon gymPokemon) {
@@ -19,6 +22,5 @@ public class FirePokemon extends Pokemon {
     }
 
     void pyroBall(Pokemon name, Pokemon enemy) {
-
     }
 }
