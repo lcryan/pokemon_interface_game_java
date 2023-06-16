@@ -9,7 +9,7 @@ public class FirePokemon extends Pokemon {
     // TODO : need 1 getter in each subclass - is already implemented in Pokemon ??!! //
 
     public FirePokemon(String name, int level, int hp, String food, String sound) {
-        super(name, level, hp, food, sound, type);
+        super(name, level, hp, food, sound, type); //
     }
 
     public void inferno(Pokemon pokemon, Pokemon gymPokemon) {

@@ -3,7 +3,7 @@ import java.util.List;
 
 public class ElectricPokemon extends Pokemon {
 
-    private static final String type = "electric";
+    private static final String type = "electric"; // switch statement in the PokemonGymImpl.//
     private static final List<String> attacks = Arrays.asList("Thunderpunch", "Electroball", "Thunder", "Volttackle");
 
 

@@ -1,7 +1,7 @@
 public abstract class Pokemon {
     private final String name;
     private final int level;
-    private int hp;
+    private int hp; // health points //
     private final String food;
     private final String sound;
     private final String type;
@@ -29,7 +29,7 @@ public abstract class Pokemon {
 
     public void setHp(int hp) {
         this.hp = hp;
-    }
+    } // these change after fights --- //
 
     public String getFood() {
         return food;
