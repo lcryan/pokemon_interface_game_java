@@ -14,22 +14,10 @@ public class Methodes {
     /*De volgende 16 methodes zijn aanvallen*/
 
 
-    public void leafStorm(Pokemon name, Pokemon enemy);
 
 
-    void thunderPunch(Pokemon name, Pokemon enemy);
 
-    void electroBall(Pokemon name, Pokemon enemy);
 
-    public void solarBeam(Pokemon name, Pokemon enemy);
-
-    void thunder(Pokemon name, Pokemon enemy);
-
-    public void leechSeed(Pokemon name, Pokemon enemy);
-
-    public void leaveBlade(Pokemon name, Pokemon enemy);
-
-    void voltTackle(Pokemon name, Pokemon enemy);
 
 
 }
