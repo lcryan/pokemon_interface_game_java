@@ -1,5 +1,4 @@
 public abstract class Pokemon {
-
     private final String name;
     private final int level;
     private int hp; // stands for health points //
@@ -7,7 +6,6 @@ public abstract class Pokemon {
     private final String sound;
 
     private final String type;
-
 
     public Pokemon(String name, int level, int hp, String food, String sound, String type) {
         this.name = name;
@@ -46,3 +44,6 @@ public abstract class Pokemon {
         return type;
     }
 }
+
+
+// finalised! nothing to change here anymore //
