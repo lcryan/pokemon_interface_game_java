@@ -22,8 +22,4 @@ public interface PokemonGym {
     void gymOwnerAttacks(Pokemon gymPokemon, Pokemon pokemon);
 
     void attackOrChange(Pokemon pokemon, Pokemon gymPokemon, PokemonTrainer trainer, PokemonGymOwner gym);
-
-
-    //TODO : as this is the interface, there must be all methods in here - right ? What are the exact methods Check PokemonGymImpl?
-
 }
