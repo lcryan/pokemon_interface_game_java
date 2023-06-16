@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 // Los in deze klasse alle foutmeldingen op door (abstracte) klassen met variabelen en methodes te maken en een interface met methodes (en soms een import).
 public class PokemonGymImpl implements PokemonGym {
@@ -173,7 +170,7 @@ public class PokemonGymImpl implements PokemonGym {
                 }
             }
             case "grass" -> {
-                grass = new GrassPokemon(pokemon.getName(), pokemon.getLevel(), pokemon.getHp(), pokemon.getFood(), pokemon.getSound());
+                grass = new GrassPokemon(pokemon.getName(), pokemon.getLevel(), pokemon.getHp(), pokemon.getFood(), pokemon.getSound()); // here missing type is giving me an error in all subclasses - how do I avoid this ??? //
                 switch (choosenAttack) {
                     case "leafstorm" -> grass.leafStorm(pokemon, gymPokemon);
                     case "solarbeam" -> grass.solarBeam(pokemon, gymPokemon);

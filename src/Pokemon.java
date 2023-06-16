@@ -4,7 +4,6 @@ public abstract class Pokemon {
     private int hp; // stands for health points //
     private final String food;
     private final String sound;
-
     private final String type;
 
     public Pokemon(String name, int level, int hp, String food, String sound, String type) {
