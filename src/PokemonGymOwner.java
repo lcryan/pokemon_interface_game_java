@@ -1,13 +1,14 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class PokemonGymOwner {
-    String name;
-    String town;
+    final private String name;
+    final private String town;
+
 
     public PokemonGymOwner(String name, String town, List<Pokemon> pokemons) {
         this.name = name;
         this.town = town;
-
-        //TODO : add different names to variables here!
+        // TODO: what to do with the list here ??
     }
 }
