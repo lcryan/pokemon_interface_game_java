@@ -1,16 +1,21 @@
 public abstract class Pokemon {
+
     private final String name;
     private final int level;
-    private final int hp; // stands for health points //
+    private int hp; // stands for health points //
     private final String food;
     private final String sound;
 
-    public Pokemon(String name, int level, int hp, String food, String sound) {
+    private final String type;
+
+
+    public Pokemon(String name, int level, int hp, String food, String sound, String type) {
         this.name = name;
         this.level = level;
         this.hp = hp;
         this.food = food;
         this.sound = sound;
+        this.type = type;
     }
 
     public String getName() {
@@ -25,6 +30,10 @@ public abstract class Pokemon {
         return hp;
     }
 
+    public int setHp() {
+        return hp;
+    }
+
     public String getFood() {
         return food;
     }
@@ -33,4 +42,7 @@ public abstract class Pokemon {
         return sound;
     }
 
+    public String getType() {
+        return type;
+    }
 }
