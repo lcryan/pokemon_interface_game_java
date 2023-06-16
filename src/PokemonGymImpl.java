@@ -2,11 +2,6 @@ import java.util.*;
 
 //TODO getters still have to be implemented in either the Trainer or GymOwner class //
 public class PokemonGymImpl implements PokemonGym {
-    List<Pokemon> pokemons;
-
-    public PokemonGymImpl(List<Pokemon> pokemons) {
-        this.pokemons = pokemons; // this is not correct ! It is not correct I think !
-    }
 
     @Override
     public void enteredTheGym(PokemonTrainer player1) {

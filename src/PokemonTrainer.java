@@ -1,12 +1,13 @@
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class PokemonTrainer {
-    String name;
-    String user;
+    private final String name;
+    private<List>Pokemon pokemons = new ArrayList<>();
 
-    public PokemonTrainer(String name, List<Pokemon> pokemons) {
+    public PokemonTrainer(String name) {
         this.name = name;
-        this.user = user;
 
         // TODO : the names of string have to change here! To be researched on ! //
     }
