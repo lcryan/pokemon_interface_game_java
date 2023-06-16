@@ -28,8 +28,8 @@ public abstract class Pokemon {
         return hp;
     }
 
-    public int setHp() {
-        return hp;
+    public void setHp(int hp) {
+        this.hp = hp;
     }
 
     public String getFood() {
