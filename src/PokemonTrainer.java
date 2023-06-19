@@ -30,7 +30,7 @@ public class PokemonTrainer {
     }
 
     public List<String> getPokemonList() {
-        return Arrays.asList(pokemons);
+        return Arrays.asList(pokemons.toString());
     }
 
 }

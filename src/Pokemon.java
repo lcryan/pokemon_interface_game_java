@@ -43,6 +43,3 @@ public abstract class Pokemon {
         return type;
     }
 }
-
-
-// finalised! nothing to change here anymore //
